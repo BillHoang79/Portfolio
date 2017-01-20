@@ -35,7 +35,8 @@ a {
 }
 
 a:hover {
-  color: #a74752;
+  color: #000;
+  text-shadow: .1rem .1rem #fff;
 }
 
 p {
@@ -214,7 +215,7 @@ p:last-of-type {
 
 .wrapper {
   overflow: hidden;
-  background-color: #fff;
+  background-color: #0000ff;
 }
 
 .box_blur {
@@ -290,9 +291,10 @@ p:last-of-type {
 }
 
 .title {
-  font-weight: 300;
+  font-weight: bold;
   font-size: 3.5rem;
   color: #000;
+  text-shadow: .2rem .2rem #fff;
   text-transform: uppercase;
 }
 
@@ -334,7 +336,7 @@ p:last-of-type {
 }
 
 .title_white {
-  color: #fff;
+  color: #000;
 }
 
 .title_white:after {
@@ -571,7 +573,7 @@ p:last-of-type {
   z-index: 9998;
   display: none;
   padding: 1.5rem 1rem;
-  background-color: #a74752;
+  background-color: #0000ff;
 }
 
 .icon-menu {
@@ -608,8 +610,9 @@ p:last-of-type {
   z-index: 9997;
   min-width: 100%;
   padding: 1.5rem 0;
-  background-color: #fff;
-  border-bottom: 0.1rem solid #eee;
+  background-color: #0000ff;
+  font-weight: bold;
+  border-bottom: 0.1rem solid #000;
   box-shadow: 0 0 0.8rem #ddd;
   -webkit-transform: translateZ(0px) translate(0, 0);
   transform: translateZ(0px) translate(0, 0);
@@ -648,7 +651,7 @@ p:last-of-type {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   opacity: 0;
-  background-color: #fff;
+  background-color: #0000ff;
   border-left: 0.1rem solid #eee;
   box-shadow: 0 0 0.8rem #ddd;
 }
@@ -682,7 +685,9 @@ p:last-of-type {
 }
 
 .nav__link_active {
-  color: #a74752;
+  color: #000;
+  text-shadow: .1rem .1rem #fff;
+  font-size: bold;
 }
 
 .nav-panel__icon {
@@ -904,7 +909,7 @@ p:last-of-type {
 
 .logo__label {
   font-size: 1.4rem;
-  color: #a74752;
+  color: #fff;
   display: block;
 }
 
@@ -938,13 +943,13 @@ p:last-of-type {
   display: block;
   font-weight: 700;
   font-size: 8rem;
-  text-shadow: 0.1rem 0.1rem 1rem #000;
+  text-shadow: 0.2rem 0.2rem 2rem #0000ff;
   letter-spacing: 0.8rem;
 }
 
 .welcome__label {
   display: inline-block;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
 }
@@ -6199,3 +6204,4 @@ _::full-page-media, _:future,
 .ytplayer-player {
   position: absolute;
 }
+
