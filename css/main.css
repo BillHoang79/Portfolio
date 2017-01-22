@@ -63,13 +63,14 @@ p:last-of-type {
 }
 
 .close-arrow {
+  color: #fff;
   height: 2.5rem;
   width: 2.5rem;
   cursor: pointer;
   position: fixed;
   top: 2rem;
   right: 3.5rem;
-  z-index: 2;
+  z-index: 10;
 }
 
 .close-arrow:before, .close-arrow:after {
@@ -932,7 +933,7 @@ p:last-of-type {
 .about-me__sidebar {
   width: 40%;
   padding: 2.5rem 5%;
-  background-color: #eee;
+  background-color: #696969;
 }
 
 .about-me__column {
@@ -990,6 +991,7 @@ p:last-of-type {
 }
 
 .about-me__value {
+  font-weight: bold;
   display: inline-block;
   vertical-align: middle;
 }
