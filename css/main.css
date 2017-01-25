@@ -1271,8 +1271,8 @@ p:last-of-type {
   padding: 2rem 5% 2rem 0;
 }
 
-.list-works__column {
-  width: 50%;
+.list-works__row {
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -1309,7 +1309,7 @@ p:last-of-type {
 }
 
 .list-works__item {
-  width: 50%;
+  width: 20%;
   float: left;
   overflow: hidden;
   position: relative;
@@ -1332,10 +1332,6 @@ p:last-of-type {
   animation: left_footer_slide 0.5s ease-out;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-}
-
-.list-works__item_big {
-  width: 100%;
 }
 
 .list-works__footer {
