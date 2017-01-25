@@ -12,7 +12,7 @@
 		init: function(){
 			
 			var display_active = scrollEvent.getActiveDisplay();
-			
+			 
 			scrollEvent.setBodyId(display_active);
 			scrollEvent.initAnimationDisplay(display_active);
 			
