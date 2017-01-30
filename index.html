@@ -9,9 +9,12 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css"/>
 </head>
 <body id="welcome_active">
-
     <header id="welcome" class="header header_no-bg box_blur display_js">
     <div class="main-container main-container_fullheight">
+        <video class="responsive-video" autoplay loop>
+            <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
         <div class="welcome">
             <h1 class="welcome__header">
                 <span class="welcome__name layer" data-show-effect="fadeInDown" data-show-delay="500">Bill Hoang</span>
@@ -630,30 +633,28 @@
 		</div>
 	</div>
 	<div id="blog-popup" class="popup popup-blog lrmw__popup">
-		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
-			<div class="popup__layout">
-				<header class="popup__header box_blur lrmw_layer" data-show-delay="100" data-hide-delay="1000" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
-					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="600" data-hide-delay="450" data-time="500" data-show-effect="fadeInUp" data-hide-effect="fadeOutDown"></span></h3>
-					<img src="" class="responsive-img" alt="Title popup" />
-					<div class="popup-blog__date lrmw_layer" data-show-delay="1200" data-hide-delay="300" data-time="500" data-show-effect="fadeInRight" data-hide-effect="fadeOutRight">2017</div>
-				</header>
-				<div class="popup__content">
-					<div class="popup__description popup__description_fullwidth lrmw_layer" data-show-delay="200" data-hide-delay="600" data-time="500" data-show-effect="fadeInLeft" data-hide-effect="fadeOutLeft">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>		
+        <span class="close-arrow popup__close_js"></span>
+        <div class="popup__inner">
+            <div class="popup__layout">
+                <header class="popup__header box_blur lrmw_layer" data-show-delay="100" data-hide-delay="1000" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
+                    <h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="600" data-hide-delay="450" data-time="500" data-show-effect="fadeInUp" data-hide-effect="fadeOutDown"></span></h3>
+                    <img src="" class="responsive-img" alt="Title popup" />
+                    <div class="popup-blog__date lrmw_layer" data-show-delay="1200" data-hide-delay="300" data-time="500" data-show-effect="fadeInRight" data-hide-effect="fadeOutRight">2017</div>
+                </header>
+                <div class="popup__content">
+                    <div class="popup__description popup__description_fullwidth lrmw_layer" data-show-delay="200" data-hide-delay="600" data-time="500" data-show-effect="fadeInLeft" data-hide-effect="fadeOutLeft">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
 </div>
 <script src="js/jquery.js"></script>
 <script async src="js/plugins/layerPopup.min.js"></script>
 <script async src="js/plugins/magicLayout.min.js"></script>
 <script async src="js/main.js"></script>
-
-
-<script src="js/plugins/jquery.youtubebackground.min.js"></script>
+<!-- <script src="js/plugins/jquery.youtubebackground.min.js"></script>
 <script>
 (function($){
 
@@ -665,6 +666,6 @@
 })(jQuery);
 </script>
 
-	
+ -->	
 </body>	
 </html>
