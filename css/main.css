@@ -22,6 +22,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   background-clip: url("../video.mp4");
+  background-clip: no-repeat;
 }
 
 .load-page .preloader:after {
@@ -44,8 +45,8 @@ a:hover, h2:hover {
 p {
   color: #dcdcdc;
   font-weight: bold;
-  text-shadow: .2rem .2rem #000;
-  margin-bottom: 1rem;
+/*  text-shadow: .2rem .2rem #000;
+*/  margin-bottom: 1rem;
   line-height: 2.5rem;
 }
 
@@ -61,6 +62,14 @@ p:last-of-type {
 .responsive-video {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 400px) {
+  
+  .responsive-video {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .close-arrow {
@@ -1890,7 +1899,7 @@ p:last-of-type {
 }
 
 .popup__content {
-  background: linear-gradient(270deg, #0d0d0d, #3333ff, #0d0d0d);
+  background: #778899;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -1912,7 +1921,7 @@ p:last-of-type {
 }
 
 .popup__title {
-  text-shadow: 0.2rem 0.2rem 2rem #3333ff;
+  text-shadow: 0.2rem 0.2rem 2rem #000;
   letter-spacing: 0.2rem;
   color: #fff;
   width: 90%;

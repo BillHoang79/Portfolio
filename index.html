@@ -11,7 +11,7 @@
 <body id="welcome_active">
     <header id="welcome" class="header header_no-bg box_blur display_js">
     <div class="main-container main-container_fullheight">
-        <video class="responsive-video" autoplay loop>
+        <video class="background-video_active responsive-video" autoplay loop muted>
             <source src="video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
         </video>
@@ -271,6 +271,22 @@
         <div class="timeline">
             <div class="timeline__line layer" data-show-effect="fadeInDown" data-show-delay="0" data-time="2000"></div>
             <div class="timeline__layout">
+                <div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="900" data-time="300"></div>
+                <div class="timeline__inner timeline__time layer" data-show-effect="fadeIn" data-show-delay="1300">
+                    <span class="timeline__date">Dec 2016 - present</span>
+                    <span class="timeline__place-work">Codify Academy</span>
+                </div>
+                <article class="timeline__inner timeline__content layer" data-show-effect="fadeInRight" data-show-delay="1400">
+                    <h3 class="title title_small timeline__title">Student Mentor</h3>
+                    <div class="timeline__description">
+                        <p>Assist new students and help them understand the fundamentals of Front-End developement.<br>
+                         Socialize with casino and players to make sure everyone is having a good time. <br>
+                         Trained new hires and teach them the rules and regulations. <br>
+                         Acting supervisor when they go on break, lunch, or meetings.</p>
+                    </div>
+                </article>
+            </div>  
+            <div class="timeline__layout">
                 <div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="700" data-time="300"></div>
                 <div class="timeline__inner timeline__time layer" data-show-effect="fadeIn" data-show-delay="1100">
                     <span class="timeline__date">0ct 2017 - present</span>
@@ -280,12 +296,13 @@
                     <h3 class="title title_small timeline__title">Web Developer</h3>
                     <div class="timeline__description">
                         <p>Using media queries and bootstrap to make responsive designs websites and applications<br>
-                            jQuery to make applications, converting raw Javascript to jQuery<br>
-                            CSS to add next level designs to websites and applications<br>
-                            Javascript to develope applications<br>
-                            Design and maintenance websites <br>
-                            Learn to ways to approach new tasks<br>
-                            Critical thinking and intense problem solving</p>
+                        jQuery to make applications, converting raw Javascript to jQuery<br>
+                        CSS to add next level designs to websites and applications<br>
+                        Javascript to develope applications<br>
+                        Design and maintenance websites <br>
+                        Learn to ways to approach new tasks<br>
+                        Critical thinking and intense problem solving
+                        </p>
                     </div>
                 </article>
             </div>  
@@ -299,10 +316,10 @@
                     <h3 class="title title_small timeline__title">Web Developer</h3>
                     <div class="timeline__description">
                         <p>Build and maintain website using resposive designs<br>
-                           Use css to add color and styles to websites<br>
-                           Javascript to make parts of the site run<br>
-                           jQuery to add plug-ins and shorten codes<br>
-                            </p>
+                        scss to add color and styles to websites<br>
+                        Javascript to make parts of the site run<br>
+                        jQuery to add plug-ins and shorten codes<br>
+                        </p>
                         
                     </div>
                 </article>
@@ -317,27 +334,11 @@
                     <h3 class="title title_small timeline__title">Front-End developer</h3>
                     <div class="timeline__description">
                         <p>16 week Front-End Developer training program<br>
-                            Each week we had to build a couple of projects based on what we learned<br>
-                            Started witht the basics like CSS and HTML, then we advanced to Javascript, JQuery, Angular, Bootstrap, etc. </p>
+                        Each week we had to build a couple of projects based on what we learned<br>
+                        Started witht the basics like CSS and HTML, then we advanced to Javascript, JQuery, Angular, Bootstrap, etc. </p>
                     </div>
                 </article>
             </div>              
-            <div class="timeline__layout">
-                <div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="900" data-time="300"></div>
-                <div class="timeline__inner timeline__time layer" data-show-effect="fadeIn" data-show-delay="1300">
-                    <span class="timeline__date">2011 - 2014</span>
-                    <span class="timeline__place-work">PT Gaming</span>
-                </div>
-                <article class="timeline__inner timeline__content layer" data-show-effect="fadeInRight" data-show-delay="1400">
-                    <h3 class="title title_small timeline__title">Customer Service, Prop Player</h3>
-                    <div class="timeline__description">
-                        <p>Regulate casino games such as three card, black jack, baccarrat, double hand, and tiles.<br>
-                         Socialize with casino and players to make sure everyone is having a good time. <br>
-                         Trained new hires and teach them the rules and regulations. <br>
-                         Acting supervisor when they go on break, lunch, or meetings.</p>
-                    </div>
-                </article>
-            </div>  
             <div class="timeline__layout">
                 <div class="timeline__dotted layer" data-show-effect="zoomIn" data-show-delay="1300" data-time="300"></div>
                 <div class="timeline__inner timeline__time layer" data-show-effect="fadeIn" data-show-delay="1700">
@@ -399,14 +400,13 @@
 	</div>
 </div>
 
-
 <div class="overlay mobile-menu-close_js"></div>
 <div id="lrmw_overlay" class="popup-overlay">
 
-	<div id="he" class="popup lrmw__popup">
+    <div id="he" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
-			<div class="popup__layout">
+            <div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer" data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="600" data-hide-delay="450" data-time="500" data-show-effect="fadeInUp" data-hide-effect="fadeOutDown">utube</span></h3>
 					<img src="img/uTube2.jpg" class="responsive-img" alt="utube" />
@@ -428,8 +428,8 @@
 	</div>
 
 	<div id="wgm" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="zoomIn" data-hide-effect="zoomOut">Digital Clock</span></h3>
@@ -450,8 +450,8 @@
 		</div>
 	</div> 
 	<div id="rf" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="rollIn" data-hide-effect="fadeOutRight">JQuery Gallery</span></h3>
@@ -473,8 +473,8 @@
 		</div>
 	</div>
 	<div id="mdb" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="1500" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="1300" data-time="500" data-show-effect="flipInX" data-hide-effect="fadeOutLeft">Goku's Portfolio</span></h3>
@@ -497,8 +497,8 @@
 		</div>
 	</div>
 	<div id="ml" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="lightSpeedIn" data-hide-effect="lightSpeedOut">Quiz App</span></h3>
@@ -520,8 +520,8 @@
 		</div>
 	</div>
 	<div id="aa" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="rotateInDownLeft" data-hide-effect="rotateOutUpLeft">survey</span></h3>
@@ -544,8 +544,8 @@
 		</div>
 	</div>
 	<div id="mrt" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="450" data-time="500" data-show-effect="lightSpeedIn" data-hide-effect="seesaw">Tictactoe</span></h3>
@@ -567,8 +567,8 @@
 		</div>
 	</div>
 	<div id="lmb" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="1400" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="900" data-hide-delay="1500" data-time="500" data-show-effect="jump" data-hide-effect="rollOut">37 Signals</span></h3>
@@ -589,8 +589,8 @@
 		</div>
 	</div>
 	<div id="pan" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="900" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="600" data-hide-delay="450" data-time="500" data-show-effect="fadeInUp" data-hide-effect="fadeOutDown">Mile Tracker App</span></h3>
@@ -611,8 +611,8 @@
 		</div>
 	</div>
 	<div id="lrmw" class="popup lrmw__popup">
+        <div class="popup__inner">
 		<span class="close-arrow popup__close_js"></span>
-		<div class="popup__inner">
 			<div class="popup__layout">
 				<header class="popup__header box_blur lrmw_layer"  data-show-delay="500" data-hide-delay="1200" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
 					<h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="600" data-hide-delay="450" data-time="500" data-show-effect="fadeInDown" data-hide-effect="fadeOutUp">DBZ character select</span></h3>
@@ -633,8 +633,8 @@
 		</div>
 	</div>
 	<div id="blog-popup" class="popup popup-blog lrmw__popup">
-        <span class="close-arrow popup__close_js"></span>
         <div class="popup__inner">
+        <span class="close-arrow popup__close_js"></span>
             <div class="popup__layout">
                 <header class="popup__header box_blur lrmw_layer" data-show-delay="100" data-hide-delay="1000" data-time="500" data-show-effect="fadeIn" data-hide-effect="fadeOut">
                     <h3 class="title popup__title"><span class="popup__title-label lrmw_layer"  data-show-delay="600" data-hide-delay="450" data-time="500" data-show-effect="fadeInUp" data-hide-effect="fadeOutDown"></span></h3>
