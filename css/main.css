@@ -38,7 +38,7 @@ a {
 
 a:hover, h2:hover {
   color: #fff;
-  text-shadow: .3rem .3rem #000;
+  text-shadow: .3rem .3rem #778899;
   transition: 0.3s;
 }
 
@@ -228,7 +228,7 @@ p:last-of-type {
   font-weight: bold;
   font-size: 3.5rem;
   color: #000;
-  text-shadow: .2rem .2rem #fff;
+  text-shadow: .2rem .2rem #778899;
   text-transform: uppercase;
 }
 
@@ -268,7 +268,7 @@ p:last-of-type {
   margin-bottom: 1.5rem;
   color: #dcdcdc;
   font-weight: bold;
-  text-shadow: .2rem .2rem #000;
+  text-shadow: .2rem .2rem #778899;
 }
 
 .title_white {
@@ -587,7 +587,7 @@ p:last-of-type {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   opacity: 0;
-  background: #1a1a1a;
+  background: #778899;
   border-left: 0.1rem solid #eee;
   box-shadow: 0 0 0.8rem #ddd;
 }
@@ -622,7 +622,7 @@ p:last-of-type {
 
 .nav__link_active {
   color: #dcdcdc;
-  text-shadow: .2rem .2rem #000;
+  text-shadow: .2rem .2rem #;
   font-size: bold;
 }
 
@@ -1291,7 +1291,7 @@ p:last-of-type {
 .list-works__wrap-img_blur {
   overflow: hidden;
   position: relative;
-  width: 40%;
+  width: 100%;
 }
 
 .list-works__blur-svg {
