@@ -58,20 +58,56 @@ p:last-of-type {
   height: auto;
 }
 
-.responsive-video {
+/*.responsive-video {
   width: 100%;
-  opacity: .5;
   background-color: #000;
 }
+*/
+.fullscreen-bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
 
-@media screen and (max-width: 534px) {
-  @media screen and (max-height: 600px) {
+.fullscreen-bg__video {
+  position: absolute;
+  opacity: .5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-  .responsive-video {
-    height: 80%;
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 200px) {
+
+  .fullscreen-bg__video {
+    position: absolute;
+    opacity: .5;
+    top: 0;
+    left: 0;
     width: 100%;
-    }
+    height: 100%;
+  }
 
+  .fullscreen-bg__video {
+    display: none;
   }
 }
 
@@ -286,9 +322,6 @@ p:last-of-type {
   }
 }
 
-.icon-twitter:before {
-  background-image: url("../icons/twitter_w.svg");
-}
 
 .icon-facebook:before {
   background-image: url("../icons/facebook_w.svg");
@@ -306,48 +339,12 @@ p:last-of-type {
   background-image: url("../icons/google-plus_w.svg");
 }
 
-.icon-thumbs-up:before {
-  background-image: url("../icons/thumbs-o-up_w.svg");
-}
-
-.icon-message:before {
-  background-image: url("../icons/message_b.svg");
-}
-
-.icon-mail:before {
-  background-image: url("../icons/mail_b.svg");
-}
-
-.icon-smile:before {
-  background-image: url("../icons/smile_w.svg");
-}
-
 .icon-html5:before {
   background-image: url("../icons/html5_w.svg");
 }
 
-.icon-pencil:before {
-  background-image: url("../icons/pencil_b.svg");
-}
-
 .icon-desktop:before {
   background-image: url("../icons/desktop_w.svg");
-}
-
-.icon-camera:before {
-  background-image: url("../icons/camera_w.svg");
-}
-
-.icon-chart-bar:before {
-  background-image: url("../icons/bar-chart_w.svg");
-}
-
-.icon-coffee:before {
-  background-image: url("../icons/coffee_w.svg");
-}
-
-.icon-award:before {
-  background-image: url("../icons/cup_b.svg");
 }
 
 .icon-linkedin:before {
@@ -1410,7 +1407,7 @@ p:last-of-type {
   top: 50%;
   -webkit-transform: translateZ(0px) translate(150%, -50%);
   transform: translateZ(0px) translate(150%, -50%);
-  font-size: 2.4rem;
+  font-size: 4.4rem;
   font-weight: 700;
   color: #fff;
 }
@@ -1868,7 +1865,7 @@ p:last-of-type {
   -webkit-transform: translateZ(0px) translate(-50%, 0);
   transform: translateZ(0px) translate(-50%, 0);
   top: 0;
-  width: 80%;
+  width: 50%;
   max-width: 1200px;
   padding: 5% 0;
   overflow: hidden;
@@ -6092,33 +6089,3 @@ _::full-page-media, _:future,
     transform: translateZ(0) translate(0, 0) scale(1);
   }
 }
-
-.ytplayer-loaded .ytplayer-container {
-  display: block;
-}
-
-.ytplayer-container {
-  height: 100%;
-  min-width: 100%;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-}
-
-.ytplayer-shield {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 2;
-}
-
-.ytplayer-player {
-  position: absolute;
-}
-
