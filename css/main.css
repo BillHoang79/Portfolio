@@ -42,7 +42,7 @@ a:hover, h2:hover {
 }
 
 p {
-  color: #dcdcdc;
+  color: #000;
   margin-bottom: 1rem;
   line-height: 2.5rem;
 }
@@ -197,7 +197,7 @@ p:last-of-type {
 .box_blur:after {
   content: "";
   display: block;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -263,22 +263,20 @@ p:last-of-type {
 
 .title {
   font-size: 3.5rem;
+  font-weight: 100;
   color: #000;
   text-transform: uppercase;
 }
 
 .title_middle {
   font-size: 2.8rem;
-  font-weight: 300;
 }
 
 .title_small {
   font-size: 2.4rem;
-  font-weight: 700;
 }
 
 .title_little {
-  font-weight: 700;
   font-size: 2.2rem;
 }
 
@@ -503,7 +501,7 @@ p:last-of-type {
   z-index: 9998;
   display: none;
   padding: 1.5rem 1rem;
-  background-color: #000000;
+  background-color: #a74752;
 }
 
 .icon-menu {
@@ -541,8 +539,8 @@ p:last-of-type {
   min-width: 100%;
   padding: 1.5rem 0;
   background: #fff;
-  border-bottom: 0.1rem solid #262626;
-  box-shadow: 0 0 0.8rem #ddd;
+  border-bottom: 0.1rem solid #000;
+  box-shadow: 0 0 0.8rem #000;
   -webkit-transform: translateZ(0px) translate(0, 0);
   transform: translateZ(0px) translate(0, 0);
   -webkit-transition: transform 0.5s ease-out 0s;
@@ -604,10 +602,11 @@ p:last-of-type {
 }
 
 .nav-panel__header:before {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .nav-panel__link {
+  color: #000;
   display: block;
   padding: 1rem 2rem 1rem 4rem;
   border-bottom: 0.1rem solid #ddd;
@@ -798,7 +797,6 @@ p:last-of-type {
 .social_right {
   float: right;
   text-align: right;
-  font-weight: 700;
 }
 
 .logo {
@@ -884,14 +882,14 @@ p:last-of-type {
 
 .welcome__label {
   display: inline-block;
-  font-weight: 800;
+  font-weight: 100;
   font-size: 1.9rem;
   letter-spacing: 0.2rem;
 }
 
 .welcome__link {
   font-size: 1.4rem;
-  color: #000;
+  color: #fff;
   padding: .5rem 0;
   display: inline-block;
   margin: 0 1.5rem;
@@ -899,8 +897,8 @@ p:last-of-type {
 }
 
 .welcome__link:hover {
-  color: #a74752;
-  font-weight: bold;
+  background-color: #fff;
+  color: #000;
   border-color: transparent;
   margin: 0 .5rem;
   padding: .5rem 1rem;
@@ -962,7 +960,7 @@ p:last-of-type {
   left: 50%;
   -webkit-transform: translateZ(0px) translate(-50%, 0);
   transform: translateZ(0px) translate(-50%, 0);
-  background-color: #ddd;
+  background-color: #000;
 }
 
 .avatar__img {
@@ -975,7 +973,7 @@ p:last-of-type {
 }
 
 .about-me__title-label {
-  font-weight: 700;
+  font-weight: 100;
 }
 
 .about-me__tag {
@@ -1537,8 +1535,7 @@ p:last-of-type {
 .timeline__dotted {
   width: 1rem;
   height: 1rem;
-  border: 0.2rem solid #000
-;
+  border: 0.2rem solid #000;
   border-radius: 50%;
   background-color: #fff;
   position: absolute;
@@ -1559,9 +1556,11 @@ p:last-of-type {
 }
 
 .timeline__content {
-  border-left: 0.5rem solid #000;
-  color: #a74752;
-  background-color: #696969;
+  border-left: 0.5rem solid #a74752;
+  border-right-top-bottom: 1px solid #000;
+  box-shadow: 0 0 0.8rem #000;
+  color: #000;
+  background-color: #fff;
   position: relative;
   padding: 2rem 2.5rem;
   width: 71%;
@@ -1573,7 +1572,7 @@ p:last-of-type {
   display: block;
   width: 0;
   height: 0;
-  border: 0.5rem solid #000;
+  border: 0.5rem solid #a74752;
   border-top-color: transparent;
   border-right-color: transparent;
   position: absolute;
@@ -1586,7 +1585,6 @@ p:last-of-type {
 .timeline__date {
   display: block;
   font-size: 2.4rem;
-  font-weight: 700;
   width: 100%;
   margin-bottom: 1rem;
 }
@@ -1706,9 +1704,8 @@ p:last-of-type {
 }
 
 .post__footer {
-  border-top: 2px solid #ddd;
+  border-top: 2px solid #000;
   font-size: 1.4rem;
-  font-weight: 700;
   box-sizing: border-box;
   width: 100%;
   position: absolute;
@@ -1801,8 +1798,8 @@ p:last-of-type {
 .footer {
   background-color: #fff;
   color: #000;
-  border-top: 1px solid #eee;
-  box-shadow: 0 0 0.8rem #ddd;
+  border-top: 1px solid #000;
+  box-shadow: 0 0 0.8rem #000;
   padding: 2rem 0;
   min-width: 100%;
   position: relative;
