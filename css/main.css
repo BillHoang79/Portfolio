@@ -23,7 +23,6 @@ body {
   font-size: 1.6rem;
   background-clip: url('../video.mp4');
   background-repeat: no-repeat;
-
 }
 
 .load-page .preloader:after {
@@ -57,9 +56,9 @@ p:last-of-type {
   height: auto;
 }
 
-  .responsive-img1 {
-    max-width: 100%;
-    height: auto;
+.responsive-img1 {
+  max-width: 100%;
+  height: auto;
 }
 
 .fullscreen-bg {
@@ -80,14 +79,14 @@ p:last-of-type {
   height: 100%;
 }
 
-@media (min-aspect-ratio: 16/9) {
+@media (min-width: 250px ) {
   .fullscreen-bg__video {
     height: 300%;
     top: -100%;
   }
 }
 
-@media (max-aspect-ratio: 16/9) {
+@media (max-width: 250px ) {
   .fullscreen-bg__video {
     width: 300%;
     left: -100%;
