@@ -19,10 +19,11 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
-  background-clip: url("../video.mp4");
-  background-clip: no-repeat;
+  background-clip: url('../video.mp4');
+  background-repeat: no-repeat;
+
 }
 
 .load-page .preloader:after {
@@ -501,7 +502,7 @@ p:last-of-type {
   z-index: 9998;
   display: none;
   padding: 1.5rem 1rem;
-  background-color: #a74752;
+  background-color: #696969;
 }
 
 .icon-menu {
