@@ -10,7 +10,7 @@
             height_header: $(".fixed-panel").outerHeight(),
 
             init: function() {
-
+       
                 var display_active = scrollEvent.getActiveDisplay();
 
                 scrollEvent.setBodyId(display_active);
