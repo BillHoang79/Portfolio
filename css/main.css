@@ -317,17 +317,6 @@ p:last-of-type {
     background-image: url("../icons/user_b.svg");
 }
 
-.icon-gplus:before {
-    background-image: url("../icons/google-plus_w.svg");
-}
-
-.icon-html5:before {
-    background-image: url("../icons/html5_w.svg");
-}
-
-.icon-desktop:before {
-    background-image: url("../icons/desktop_w.svg");
-}
 
 .icon-linkedin:before {
     background-image: url("../icons/linkedin_w.svg");
@@ -341,28 +330,9 @@ p:last-of-type {
     background-image: url("../icons/home_b.svg");
 }
 
-.icon-diamond:before {
-    background-image: url("../icons/diamond_b.svg");
-}
-
-.icon-design:before {
-    background-image: url("../icons/ruler_w.svg");
-}
 
 .icon-device-mobile:before {
     background-image: url("../icons/device-mobile_w.svg");
-}
-
-.icon-keyboard:before {
-    background-image: url("../icons/keyboard_w.svg");
-}
-
-.icon-th:before {
-    background-image: url("../icons/th_b.svg");
-}
-
-.icon-css3:before {
-    background-image: url("../icons/css3_w.svg");
 }
 
 .icon-services:before {
