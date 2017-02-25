@@ -41,8 +41,7 @@ a {
     transition: color 0.3s ease-out 0s;
 }
 
-a:hover,
-h2:hover {
+a:hover {
     color: #a74752;
     transition: 0.3s;
 }
@@ -317,7 +316,6 @@ p:last-of-type {
     background-image: url("../icons/user_b.svg");
 }
 
-
 .icon-linkedin:before {
     background-image: url("../icons/linkedin_w.svg");
 }
@@ -330,7 +328,6 @@ p:last-of-type {
     background-image: url("../icons/home_b.svg");
 }
 
-
 .icon-device-mobile:before {
     background-image: url("../icons/device-mobile_w.svg");
 }
@@ -341,6 +338,10 @@ p:last-of-type {
 
 .icon-skills:before {
     background-image: url("../icons/lightbulb-o_b.svg");
+}
+
+.icon-diamond:before {
+  background-image: url("../icons/diamond_b.svg");
 }
 
 .icon {
@@ -773,11 +774,6 @@ p:last-of-type {
     font-size: 2.4rem;
     color: #000;
     text-transform: none;
-}
-
-.logo:hover {
-    color: #fff;
-    transition: 1s;
 }
 
 .logo_bottom-decor {
