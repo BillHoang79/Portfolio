@@ -4,7 +4,7 @@
         skiil_bar_width,
 
         scrollEvent = {
-
+    
             displays: $(".display_js"),
             last_display: null,
             height_header: $(".fixed-panel").outerHeight(),
