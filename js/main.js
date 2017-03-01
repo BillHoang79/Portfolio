@@ -8,7 +8,7 @@
             displays: $(".display_js"),
             last_display: null,
             height_header: $(".fixed-panel").outerHeight(),
-
+     
             init: function() {
        
                 var display_active = scrollEvent.getActiveDisplay();
