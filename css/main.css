@@ -52,7 +52,6 @@ p:last-of-type {
 }
 
 .responsive-video {
-    opacity: .6;
     min-height: 100%;
     min-width: 100%;
     overflow: hidden;
