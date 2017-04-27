@@ -166,7 +166,7 @@ p:last-of-type {
 
 .main-container {
     min-width: 100px;
-    max-width: 1400px;
+    max-width: 100%;
     padding: 0 2rem;
     margin: 0 auto;
     position: relative;
