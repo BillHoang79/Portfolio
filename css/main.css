@@ -1172,7 +1172,7 @@ p:last-of-type {
 }
 
 .list-works {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1212,10 +1212,11 @@ p:last-of-type {
 
 .list-works__row {
     text-align: center;
-    width: 100%;
+    width: 110%;
 }
 
 .list-works__wrap-img {
+    width: 100%;
     font-size: 0;
 }
 
@@ -1248,7 +1249,14 @@ p:last-of-type {
 }
 
 .list-works__item {
-    width: 20%;
+    display: block;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px 7px 6px;
+    position: relative;
+    width: 22%;
     float: left;
     overflow: hidden;
     position: relative;
