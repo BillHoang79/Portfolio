@@ -887,7 +887,7 @@ p:last-of-type {
 }
 
 .avatar {
-    width: 18rem;
+    width: 22rem;
     margin: 0 auto 3rem;
     position: relative;
     padding-bottom: 3rem;
@@ -1251,7 +1251,6 @@ p:last-of-type {
 .list-works__item {
     display: block;
     float: left;
-    cursor: pointer;
     border-radius: 5px;
     box-sizing: border-box;
     margin: 10px 7px 6px;
